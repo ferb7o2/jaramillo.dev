@@ -11,7 +11,7 @@ function App() {
 					className="App-logo"
 					alt="logo"
 				/>
-				<p>Shut up Vanessa</p>
+				<p>Fernando Jaramillo</p>
 			</header>
 		</div>
 	);
