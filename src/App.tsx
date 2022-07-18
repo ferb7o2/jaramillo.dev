@@ -7,7 +7,7 @@ function App() {
 		<div className="App">
 			<header className="App-header">
 				<img
-					src="https://pbs.twimg.com/profile_images/1461016807708393472/ERoAYvW1_400x400.jpg"
+					src="https://i.pinimg.com/736x/18/0b/96/180b962bb9cb8dda1dc7c5d4f289a701--giant-donut-capybara-funny.jpg"
 					className="App-logo"
 					alt="logo"
 				/>
