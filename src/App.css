@@ -24,10 +24,14 @@ h5,
 p,
 a,
 button {
-	font-family: Consolas;
+	font-family: Consolas, Arial;
 	font-size: 27px;
 	color: #ffff;
 	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
 }
 
 .App {
@@ -50,6 +54,14 @@ button {
 
 .red {
 	color: #cd0000;
+}
+
+.fourty {
+	width: 35%;
+}
+
+.sixty {
+	width: 65%;
 }
 
 /*  Header  */
@@ -164,10 +176,7 @@ button {
 
 .about-section {
 	padding-top: 200px;
-}
-
-.section-txt-container {
-	max-width: 420px;
+	display: flex;
 }
 
 .section-txt {
@@ -206,12 +215,21 @@ button {
 .column-edu {
 	margin-top: 300px;
 	display: flex;
-	margin-left: auto;
-	justify-content: end;
+}
+
+@media (max-width: 650px) {
+	.column-edu {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 .fifty {
 	width: 50%;
+}
+
+.project-img {
+	margin: 30px;
 }
 
 .project-section {
@@ -220,6 +238,7 @@ button {
 
 .project-container {
 	display: flex;
+	margin-bottom: 40px;
 }
 
 .project-title {
@@ -242,6 +261,55 @@ button {
 		margin: 0 auto;
 		max-width: 100%;
 	}
+
+	.project-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.fifty {
+		width: 100%;
+	}
+
+	.project-img {
+		margin: 0px;
+	}
+
+	.project-title {
+		text-decoration: underline #f7c259 solid 2px;
+		text-underline-offset: 3px;
+	}
+
+	.title-second {
+		order: 0;
+	}
+
+	.img-first {
+		order: 1;
+	}
+
+	.project-title {
+		border-bottom: #f7c259 solid 2px;
+		width: 70%;
+	}
+
+	.about-section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.sixty {
+		width: 100%;
+	}
+
+	.fourty {
+		width: 100%;
+	}
+
+	.section-content {
+		margin: 0px;
+		padding: 0px;
+	}
 }
 .contact-section {
 	padding-top: 200px;
@@ -249,7 +317,6 @@ button {
 
 .contact-txt {
 	font-size: 16px;
-	text-decoration: none;
 }
 
 .contact-heading {
@@ -271,11 +338,20 @@ button {
 
 .row {
 	display: flex;
-	justify-content: space-between;
+}
+
+.myflickrRow {
+	padding-top: 50px;
+	max-width: 120px;
+}
+
+.gif-spacing {
+	padding-right: 40px;
 }
 
 .logos-row {
 	margin: 50px;
+	justify-content: space-between;
 }
 
 .company-logo {

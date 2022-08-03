@@ -1,7 +1,7 @@
 function Contact_Column() {
 	return (
 		<>
-			<div className="education-section contact-section">
+			<div className="education-section contact-section" id="contact">
 				<h3 className="section-title">
 					<span className="orange">04.</span> Contact
 				</h3>
