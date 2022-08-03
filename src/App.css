@@ -87,9 +87,17 @@ button {
 
 .title-container {
 	margin: 0 auto;
-	max-width: 60%;
+	max-width: 800px;
 	padding-top: 150px;
 	border: green solid;
+}
+
+@media (max-width: 900px) {
+	.title-container {
+		padding-top: 90px;
+		margin: 0 20px;
+		max-width: 100%;
+	}
 }
 .first-title-txt,
 .third-title-txt,
@@ -129,6 +137,24 @@ button {
 
 .hash-indent {
 	padding-left: 60px;
+}
+
+@media (max-width: 800px) {
+	.second-title-txt {
+		font-size: 2.4rem;
+	}
+
+	.third-title-txt {
+		font-size: 1.5rem;
+	}
+	.hash-txt,
+	#hash-txt {
+		font-size: 20px;
+	}
+
+	.hash-indent {
+		padding-left: 60px;
+	}
 }
 
 /*  Sub-sections  */
@@ -207,9 +233,15 @@ button {
 }
 
 .center {
-	border: #cd0000 solid 2px;
 	margin: 0 auto;
 	max-width: 80%;
+}
+
+@media (max-width: 650px) {
+	.center {
+		margin: 0 auto;
+		max-width: 100%;
+	}
 }
 .contact-section {
 	padding-top: 200px;

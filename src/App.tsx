@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Column_Education from "./components/Education_Column";
+import Contact_Column from "./components/Contact_Column";
 
 function App() {
 	return (
@@ -23,20 +24,47 @@ function App() {
 							</p>
 							<div className="hash-indent">
 								<p className="hash-txt">
-									“<a className="orange">About</a>” :{" "}
-									<a className="green">who_am_i()</a>,{" "}
+									“
+									<a className="orange" id="hash-txt">
+										About
+									</a>
+									” :{" "}
+									<a className="green" id="hash-txt">
+										who_am_i()
+									</a>
+									,{" "}
 								</p>
 								<p className="hash-txt">
-									“<a className="orange">Education</a>” :{" "}
-									<a className="green">where_i_went_to_college()</a>,
+									“
+									<a className="orange" id="hash-txt">
+										Education
+									</a>
+									” :{" "}
+									<a className="green" id="hash-txt">
+										where_i_went_to_college()
+									</a>
+									,
 								</p>
 								<p className="hash-txt">
-									“<a className="orange">Projects</a>” :{" "}
-									<a className="green">what_fun_things_am_i_up_to()</a>,
+									“
+									<a className="orange" id="hash-txt">
+										Projects
+									</a>
+									” :{" "}
+									<a className="green" id="hash-txt">
+										what_fun_things_am_i_up_to()
+									</a>
+									,
 								</p>
 								<p className="hash-txt">
-									“<a className="orange">Contact</a>” :{" "}
-									<a className="green">where_you_can_find_me()</a>
+									“
+									<a className="orange" id="hash-txt">
+										Contact
+									</a>
+									” :{" "}
+									<a className="green" id="hash-txt">
+										where_you_can_find_me()
+									</a>
 								</p>
 							</div>
 							<p className="hash-txt">{"}"}</p>
@@ -162,65 +190,7 @@ function App() {
 							</div>
 						</div>
 
-						<div className="education-section contact-section">
-							<h3 className="section-title">
-								<span className="orange">04.</span> Contact
-							</h3>
-						</div>
-						<div className="center">
-							<div className="section-content-contact">
-								<p className="contact-txt contact-heading">
-									Thank you for visiting my website, here are my details:
-								</p>
-								<p className="contact-txt">
-									email:{" "}
-									<a
-										className="contact-txt"
-										href="mailto:fernando@jaramillo.dev"
-									>
-										fernando@jaramillo dot dev
-									</a>
-								</p>
-								<p className="contact-txt">
-									Phone number:{" "}
-									<a className="contact-txt" href="tel:+1800229933">
-										(956) 561 - six six three four
-									</a>
-								</p>
-							</div>
-							<div className="row logos-row">
-								<img
-									className="company-logo"
-									src={require("./assets/icons/linkedin-icon.png")}
-									onClick={() =>
-										window.open("https://www.linkedin.com/in/fernandojmllo/")
-									}
-								/>
-								<img
-									className="company-logo"
-									src={require("./assets/icons/handshake.png")}
-									onClick={() =>
-										window.open(
-											"https://app.joinhandshake.com/stu/users/18626482"
-										)
-									}
-								/>
-								<img
-									className="company-logo"
-									src={require("./assets/icons/instagram.png")}
-									onClick={() =>
-										window.open("https://www.instagram.com/fernandojmllo/")
-									}
-								/>
-								<img
-									className="company-logo"
-									src={require("./assets/icons/github.png")}
-									onClick={() =>
-										window.open("https://github.com/JoseJaramillo04")
-									}
-								/>
-							</div>
-						</div>
+						<Contact_Column />
 					</div>
 				</div>
 			</body>
