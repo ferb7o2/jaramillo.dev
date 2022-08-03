@@ -2,6 +2,7 @@
 html {
 	overflow: scroll;
 	overflow-x: hidden;
+	background-color: #000000;
 }
 ::-webkit-scrollbar {
 	width: 0; /* Remove scrollbar space */
@@ -24,7 +25,7 @@ h5,
 p,
 a,
 button {
-	font-family: Consolas, Arial;
+	font-family: Consolas, "Courier New", Courier, monospace;
 	font-size: 27px;
 	color: #ffff;
 	font-weight: normal;
@@ -44,7 +45,7 @@ a {
 
 .container {
 	max-width: 1360px;
-	border: red solid;
+	/*border: red solid;*/
 	margin: 0 auto;
 }
 
@@ -66,7 +67,7 @@ a {
 
 /*  Header  */
 .header {
-	border: red 2px solid;
+	/*border: red 2px solid;*/
 	display: flex;
 	justify-content: end;
 	margin: auto;
@@ -101,7 +102,7 @@ a {
 	margin: 0 auto;
 	max-width: 800px;
 	padding-top: 150px;
-	border: green solid;
+	/*border: green solid;*/
 }
 
 @media (max-width: 900px) {
@@ -196,9 +197,9 @@ a {
 	padding-left: 60px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
 	.second-title-txt {
-		font-size: 2.4rem;
+		font-size: 3rem;
 	}
 
 	.third-title-txt {
@@ -214,6 +215,11 @@ a {
 	}
 }
 
+@media (max-width: 650px) {
+	.second-title-txt {
+		font-size: 2rem;
+	}
+}
 /*  Sub-sections  */
 .section-title {
 	font-size: 1.778rem;
@@ -335,7 +341,7 @@ a {
 
 	.project-title {
 		border-bottom: #f7c259 solid 2px;
-		width: 70%;
+		width: max-content;
 	}
 
 	.about-section {
@@ -401,4 +407,174 @@ a {
 
 .company-logo {
 	max-width: 35px;
+}
+
+/*	Mobile-Header	*/
+
+@media (max-width: 650px) {
+	/* header */
+
+	.nav-text {
+		font-size: 20px;
+	}
+
+	.header {
+		box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+		width: 100%;
+		justify-content: flex-start;
+		z-index: 3;
+	}
+
+	.header ul {
+		width: 100%;
+		list-style: none;
+		overflow: hidden;
+	}
+
+	.header li a {
+		display: block;
+		padding: 20px 20px;
+		height: 5px;
+		text-decoration: none;
+	}
+
+	.header .logo {
+		display: block;
+		float: left;
+		font-size: 2em;
+		padding: 10px 20px;
+		text-decoration: none;
+	}
+
+	/* menu */
+
+	.header .menu {
+		clear: both;
+		max-height: 0;
+		transition: max-height 0.2s ease-out;
+	}
+
+	/* menu icon */
+
+	.header .menu-icon {
+		cursor: pointer;
+		display: inline-block;
+		float: right;
+		padding: 28px 20px;
+		position: relative;
+		user-select: none;
+	}
+
+	.header .menu-icon .navicon {
+		background: #333;
+		display: block;
+		height: 2px;
+		position: relative;
+		transition: background 0.2s ease-out;
+		width: 18px;
+	}
+
+	.header .menu-icon .navicon:before,
+	.header .menu-icon .navicon:after {
+		background: #333;
+		content: "";
+		display: block;
+		height: 100%;
+		position: absolute;
+		transition: all 0.2s ease-out;
+		width: 100%;
+	}
+
+	.header .menu-icon .navicon:before {
+		top: 5px;
+	}
+
+	.header .menu-icon .navicon:after {
+		top: -5px;
+	}
+
+	/* menu btn */
+
+	.header .menu-btn {
+		display: none;
+	}
+
+	.header .menu-btn:checked ~ .menu {
+		max-height: 240px;
+	}
+
+	.header .menu-btn:checked ~ .menu-icon .navicon {
+		background: transparent;
+	}
+
+	.header .menu-btn:checked ~ .menu-icon .navicon:before {
+		transform: rotate(-45deg);
+	}
+
+	.header .menu-btn:checked ~ .menu-icon .navicon:after {
+		transform: rotate(45deg);
+	}
+
+	.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+	.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+		top: 0;
+	}
+
+	/* 48em = 768px */
+
+	/* section */
+
+	.section {
+		overflow: hidden;
+		margin: auto;
+		max-width: 1400px;
+	}
+
+	.section a {
+		position: relative;
+		float: left;
+		width: 100%;
+	}
+
+	.section a img {
+		width: 100%;
+		display: block;
+	}
+
+	.section a span {
+		position: absolute;
+		left: 5%;
+		bottom: 5%;
+		font-size: 2em;
+		text-shadow: 1px 1px 0 #000;
+	}
+
+	.section-split a span {
+		display: none;
+	}
+
+	.section-split a:hover span {
+		display: block;
+	}
+}
+
+@media (max-width: 650px) {
+	.web-header {
+		display: none;
+	}
+}
+
+@media (min-width: 650px) {
+	.mobile-header {
+		display: none;
+	}
+}
+
+.resume-div {
+	width: max-content;
+	margin: 0 auto;
+}
+
+.btn {
+	margin-right: 0px;
 }

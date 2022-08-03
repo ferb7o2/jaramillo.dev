@@ -115,6 +115,10 @@ function App() {
 						<Projects_Column />
 
 						<Contact_Column />
+
+						<div className="mobile-header resume-div">
+							<button className="btn mobile-btn">Resume</button>
+						</div>
 					</div>
 				</div>
 			</body>
