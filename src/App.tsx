@@ -17,7 +17,7 @@ function App() {
 			<body>
 				<div className="container">
 					<div className="title-container">
-						<p className="first-title-txt">// Hi, my name is</p>
+						{<p className="first-title-txt">// Hi, my name is</p>}
 						<h1 className="second-title-txt">Fernando_Jaramillo()</h1>
 						<h2 className="third-title-txt">//and I'm a software developer</h2>
 						<div className="hash-container">

@@ -131,10 +131,55 @@ a {
 .second-title-txt {
 	font-size: 4.074rem;
 	margin: 0px;
+	position: relative;
+	width: max-content;
+}
+
+.second-title-txt::before,
+.second-title-txt::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.second-title-txt::before {
+	background: black;
+	animation: typewriter 3s steps(20) 1s forwards;
+}
+
+.second-title-txt::after {
+	width: 2.5px;
+	background: white;
+	animation: typewriter 3s steps(20) 1s forwards, blink 750ms steps(24) infinite;
+}
+
+@keyframes typewriter {
+	to {
+		left: 100%;
+	}
+}
+
+@keyframes blink {
+	to {
+		background: transparent;
+	}
+}
+
+@keyframes fadeInUp {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 .third-title-txt {
 	font-size: 2.222rem;
+	opacity: 0;
+	transform: translateY();
+	animation: fadeInUp 6s ease 4s forwards;
 }
 
 .hash-container {
