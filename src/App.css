@@ -30,7 +30,7 @@ p,
 a,
 button {
 	font-family: Consolas, "Courier New", Courier, monospace;
-	font-size: 27px;
+	font-size: 33px;
 	color: #ffff;
 	font-weight: normal;
 }
@@ -79,8 +79,18 @@ a {
 
 .nav-text,
 .btn {
-	font-size: 0.9rem;
+	font-size: 1.1rem;
 	margin-right: 32px;
+}
+
+@media (max-width: 800px) {
+	.nav-text,
+	.btn {
+		font-size: 0.9rem;
+	}
+	.btn {
+		margin-right: 10px;
+	}
 }
 
 .btn {
