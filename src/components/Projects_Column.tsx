@@ -1,4 +1,4 @@
-function Projects_Column() {
+function Projects_Column(props: { onClickMethod(imgSrc: string): any }) {
 	return (
 		<div className="project-section" id="projects">
 			<h3 className="section-title">
@@ -14,10 +14,18 @@ function Projects_Column() {
 					</h4>
 
 					<p className="project-desc">
-						A <span className="green">Live</span> web app made for a small
-						business’ product inventory tracking needs. Replaces business’
-						previous way of tracking data (excel spreadsheet) with a database
-						and availability over the web.
+						A{" "}
+						<span
+							className="green openImgBtn"
+							onClick={() => {
+								props.onClickMethod("pjlweb-walkthrough.gif");
+							}}
+						>
+							Live
+						</span>{" "}
+						web app made for a small business’ product inventory tracking needs.
+						Replaces business’ previous way of tracking data (excel spreadsheet)
+						with a database and availability over the web.
 					</p>
 					<p className="project-desc">
 						<span className="orange bold">Relevant Technologies: </span>

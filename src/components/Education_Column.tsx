@@ -1,4 +1,4 @@
-function Education_Column() {
+function Education_Column(props: { onClickMethod(imgSrc: string): any }) {
 	return (
 		<div className="column-edu" id="education">
 			<div className="fifty project-img img-first">
@@ -14,7 +14,12 @@ function Education_Column() {
 
 					<p className="project-desc">
 						I earned a Bachelors of Science in Computer Science from{" "}
-						<span className="green">
+						<span
+							className="green openImgBtn"
+							onClick={() => {
+								props.onClickMethod("utrgv-campus.jpg");
+							}}
+						>
 							The University Of Texas - Rio Grande Valley
 						</span>
 						.
@@ -22,7 +27,15 @@ function Education_Column() {
 					<p className="section-txt">
 						I attended from 2019 through 2022, and managed to graduate with a
 						3.95/4.0 GPA.
-						<span className="red"> That’s 1 B, painful!</span>
+						<span
+							className="red openImgBtn"
+							onClick={() => {
+								props.onClickMethod("screaming-crying-throwing-up.jpg");
+							}}
+						>
+							{" "}
+							That’s 1 B, painful!
+						</span>
 					</p>
 				</div>
 			</div>
