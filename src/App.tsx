@@ -20,6 +20,7 @@ function App() {
 	}
 	return (
 		<div className="App">
+			<title>Fernando {"</>"}</title>
 			<header>
 				<Header />
 			</header>
