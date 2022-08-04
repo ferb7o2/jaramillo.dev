@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
@@ -7,14 +7,23 @@ import Column_Education from "./components/Education_Column";
 import Contact_Column from "./components/Contact_Column";
 import Education_Column from "./components/Education_Column";
 import Projects_Column from "./components/Projects_Column";
+import ImgPopUp from "./components/ImgPopUp";
+import $ from "jquery";
 
 function App() {
+	const [imgName, setImgName] = useState<string>("pjl.png");
+
+	function displayPopUp(img: string) {
+		setImgName(img);
+		$("#popUp-modal").removeAttr("hidden");
+	}
 	return (
 		<div className="App">
 			<header>
 				<Header />
 			</header>
 			<body>
+				<ImgPopUp imageName={imgName} />
 				<div className="container">
 					<div className="title-container">
 						{<p className="first-title-txt">// Hi, my name is</p>}
@@ -82,12 +91,26 @@ function App() {
 										<p className="section-txt">
 											Hello! I am Fernando, and I build cool stuff. I was born
 											in the Mexican state of{" "}
-											<span className="green">Zacatecas</span>, my journey into
-											tech & engineering began at a very early age when I broke
-											and attempted to repair a{" "}
-											<span className="green">finger light</span>. I was
-											fascinated by how just 3 small components made the light
-											work; so simple yet so efficient.{" "}
+											<span
+												className="green openImgBtn"
+												onClick={() => {
+													displayPopUp("zacatecas.jpg");
+												}}
+											>
+												Zacatecas
+											</span>
+											, my journey into tech & engineering began at a very early
+											age when I broke and attempted to repair a{" "}
+											<span
+												className="green openImgBtn"
+												onClick={() => {
+													displayPopUp("finger-light.gif");
+												}}
+											>
+												finger light
+											</span>
+											. I was fascinated by how just 3 small components made the
+											light work; so simple yet so efficient.{" "}
 										</p>
 										<p className="section-txt">
 											Fast-forward into college and I used that same curiosity

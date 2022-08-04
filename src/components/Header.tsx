@@ -23,6 +23,7 @@ function Header() {
 				<label className="menu-icon" htmlFor="menu-btn">
 					<span className="navicon"></span>
 				</label>
+
 				<ul className="menu">
 					<li>
 						<a className="nav-text" href="#about">
