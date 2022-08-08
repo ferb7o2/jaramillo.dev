@@ -628,6 +628,7 @@ a {
 
 .modal-img {
 	max-width: 90%;
+	max-height: 600px;
 }
 
 .modal-content {
