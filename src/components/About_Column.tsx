@@ -46,8 +46,8 @@ function About_Column(props: { onClickMethod(imgSrc: string): any }) {
 					</div>
 				</div>
 			</div>
-			<div className="fourty project-img">
-				<img src={require("../assets/images/canes.png")} />
+			<div className="fourty project-img me-img">
+				<img src={require("../assets/images/me.jpeg")} />
 			</div>
 		</div>
 	);

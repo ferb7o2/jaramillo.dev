@@ -1,3 +1,5 @@
+import Resume from "../assets/documents/JJaramillo-resume.pdf";
+
 function Header() {
 	return (
 		<>
@@ -15,7 +17,9 @@ function Header() {
 					<a className="nav-text" href="#contact">
 						<span className="orange">04.</span> Contact
 					</a>
-					<button className="btn">Resume</button>
+					<a className="btn" href={Resume} target="_blank">
+						Resume
+					</a>
 				</div>
 			</div>
 			<header className="header mobile-header">
