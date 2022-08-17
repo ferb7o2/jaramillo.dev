@@ -72,10 +72,18 @@ function Projects_Column(props: { onClickMethod(imgSrc: string): any }) {
 					<h4 className="project-title">HardWiring Local Network</h4>
 
 					<p className="project-desc">
-						This isn’t a coding project, more of an interest of hobby. I took on
-						the task of hardwiring a new family business’ office. 10+ outlets,
-						3+ RJ45 connectors in each, 2 RJ45 wall patches, Ethernet switches,
-						camer...
+						This isn’t a coding project, more of an interest or hobby. I took on
+						the task of{" "}
+						<span
+							className="green openImgBtn"
+							onClick={() => {
+								props.onClickMethod("hardwiring-office-project.gif");
+							}}
+						>
+							hardwiring a new family business’ office
+						</span>
+						. 10+ outlets, 3+ RJ45 connectors in each, 2 RJ45 wall patches,
+						Ethernet switches, camer...
 					</p>
 				</div>
 			</div>
@@ -85,9 +93,18 @@ function Projects_Column(props: { onClickMethod(imgSrc: string): any }) {
 					<h4 className="project-title">Cane's Chicken Python Bot</h4>
 
 					<p className="project-desc">
-						A <span className="green">Local</span> cane’s restaurant survey
-						filler, It will get the receipt survey code and automatically do the
-						survey and sign you up for the free cane’s for a year incentive.
+						A{" "}
+						<span
+							className="green openImgBtn"
+							onClick={() => {
+								props.onClickMethod("canes-python-bot.gif");
+							}}
+						>
+							Local
+						</span>{" "}
+						cane’s restaurant survey filler, It will get the receipt survey code
+						and automatically do the survey and sign you up for the free cane’s
+						for a year incentive.
 					</p>
 					<p className="project-desc">
 						<span className="orange bold">Relevant Technologies: </span>X
@@ -98,7 +115,7 @@ function Projects_Column(props: { onClickMethod(imgSrc: string): any }) {
 					</p>
 				</div>
 				<div className="fifty project-img">
-					<img src={require("../assets/images/canes.png")} />
+					<img src={require("../assets/images/python-bot-icon.png")} />
 				</div>
 			</div>
 		</div>
