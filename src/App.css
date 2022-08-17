@@ -295,6 +295,8 @@ a {
 
 .project-img {
 	margin: 30px;
+	max-width: 450px;
+	height: 100%;
 }
 
 .project-section {
