@@ -10,6 +10,7 @@ import Projects_Column from "./components/Projects_Column";
 import ImgPopUp from "./components/ImgPopUp";
 import $ from "jquery";
 import About_Column from "./components/About_Column";
+import Resume from "./assets/documents/JJaramillo-resume.pdf";
 
 function App() {
 	const [imgName, setImgName] = useState<string>("pjl.png");
@@ -104,7 +105,9 @@ function App() {
 						<Contact_Column />
 
 						<div className="mobile-header resume-div">
-							<button className="btn mobile-btn">Resume</button>
+							<a className="btn" href={Resume} target="_blank">
+								Resume
+							</a>
 						</div>
 					</div>
 				</div>
