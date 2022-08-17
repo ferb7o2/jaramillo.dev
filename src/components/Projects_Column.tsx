@@ -93,9 +93,18 @@ function Projects_Column(props: { onClickMethod(imgSrc: string): any }) {
 					<h4 className="project-title">Cane's Chicken Python Bot</h4>
 
 					<p className="project-desc">
-						A <span className="green">Local</span> cane’s restaurant survey
-						filler, It will get the receipt survey code and automatically do the
-						survey and sign you up for the free cane’s for a year incentive.
+						A{" "}
+						<span
+							className="green openImgBtn"
+							onClick={() => {
+								props.onClickMethod("canes-python-bot.gif");
+							}}
+						>
+							Local
+						</span>{" "}
+						cane’s restaurant survey filler, It will get the receipt survey code
+						and automatically do the survey and sign you up for the free cane’s
+						for a year incentive.
 					</p>
 					<p className="project-desc">
 						<span className="orange bold">Relevant Technologies: </span>X
@@ -106,7 +115,7 @@ function Projects_Column(props: { onClickMethod(imgSrc: string): any }) {
 					</p>
 				</div>
 				<div className="fifty project-img">
-					<img src={require("../assets/images/canes.png")} />
+					<img src={require("../assets/images/python-bot-icon.png")} />
 				</div>
 			</div>
 		</div>
