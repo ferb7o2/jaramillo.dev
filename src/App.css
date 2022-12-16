@@ -231,7 +231,16 @@ a {
 
 @media (max-width: 650px) {
 	.second-title-txt {
-		font-size: 2rem;
+		font-size: 1.8rem;
+	}
+	.hash-txt,
+	#hash-txt {
+		font-size: 20px;
+		overflow: hidden;
+	}
+
+	.hash-indent {
+		padding-left: 20px;
 	}
 }
 /*  Sub-sections  */
@@ -294,7 +303,7 @@ a {
 }
 
 .project-img {
-	margin: auto 0;
+	margin: 0 auto;
 	padding: 30px;
 	max-width: 450px;
 	height: 100%;
@@ -341,6 +350,7 @@ a {
 
 	.project-img {
 		margin: 0px;
+		padding: 0;
 	}
 
 	.project-title {
@@ -409,9 +419,12 @@ a {
 }
 
 .myflickrRow {
+	width: 100%;
 	padding-top: 50px;
 	max-width: 120px;
 }
+
+
 
 .gif-spacing {
 	padding-right: 40px;
@@ -575,13 +588,14 @@ a {
 	}
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
 	.web-header {
 		display: none;
 	}
 	.btn {
 		margin-right: 0px;
 	}
+	
 }
 
 @media (min-width: 650px) {
@@ -664,4 +678,10 @@ a {
 		height: 120%;
 		margin-top: -100px;
 	}
+
+	.myflickrRow img{
+	width: 100%;
+	max-width: 92%;
+	}
+
 }
