@@ -4,6 +4,35 @@ function Projects_Column(props: { onClickMethod(imgSrc: string): any }) {
       <h3 className="section-title">
         <span className="orange">03.</span> Projects
       </h3>
+
+      <div className="project-container">
+        <div className="fifty">
+          <a
+            href="https://github.com/JoseJaramillo04/sanangelmx.com"
+            className="project-title"
+          >
+            sanangelmx.com
+          </a>
+
+          <p className="project-desc">
+            Busines' front-end website intended to show products and basic
+            information. Has a link to their product Inventory tracking system
+            web app as well
+          </p>
+          <p className="project-desc">
+            <span className="orange bold">Relevant Technologies: </span>
+            React TS, AWS Amplify, Express, NodeJs, CLOVER API integration
+          </p>
+          <p className="project-desc">
+            <span className="orange bold">Languages: </span>
+            TypeScript, JavaScript
+          </p>
+        </div>
+        <div className="fifty project-img">
+          <img src={require("../assets/images/smx.png")} />
+        </div>
+      </div>
+
       <div className="project-container">
         <div className="fifty project-img img-first">
           <img src={require("../assets/images/pjl.png")} />
