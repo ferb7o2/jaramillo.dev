@@ -1,0 +1,45 @@
+.navBar {
+	width: 100%;
+	height: 65px;
+	padding: 0px 43px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	position: absolute;
+	overflow: hidden;
+}
+
+.navTitle {
+	font-size: 16px;
+}
+
+.navbar_nav_row {
+	display: flex;
+	gap: 21px;
+	align-items: center;
+}
+
+.navbar_nav_row a {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.navbar_nav_row a:hover {
+	opacity: 0.7;
+}
+
+.navbar_nav_row svg:hover path {
+	opacity: 0.7;
+}
+
+.blurred_bg {
+	width: 100%;
+	height: 65px;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	-webkit-filter: blur(6px);
+	filter: blur(6px);
+	position: absolute;
+}
