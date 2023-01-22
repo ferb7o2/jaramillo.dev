@@ -141,7 +141,8 @@
       "static/css/_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Inter_arg-d25629.css"
     ],
     "/Users/ferb7o2/personalCode/jaramillo.dev/src/app/page": [
-      "static/css/_app-client_src_app_page_module_css.css"
+      "static/css/_app-client_src_app_page_module_css.css",
+      "static/css/_app-client_src_components_About_about_module_css.css"
     ]
   },
   "/Users/ferb7o2/personalCode/jaramillo.dev/node_modules/next/dist/client/link.js": {
@@ -446,6 +447,15 @@
       "name": "default",
       "chunks": [
         "static/css/_app-client_src_app_globals_css.css"
+      ]
+    }
+  },
+  "/Users/ferb7o2/personalCode/jaramillo.dev/src/components/About/about.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_src_components_About_about_module_css.css"
       ]
     }
   },
