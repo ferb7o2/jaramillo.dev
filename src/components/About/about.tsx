@@ -3,17 +3,7 @@ import React from "react";
 import styles from "./about.module.css";
 
 function AboutSection() {
-	return (
-		<div className={styles.main}>
-			<span className={styles.bg_img}>{"< />"}</span>
-			<p>// Hey, my name is</p>
-			<h1>Fernando Jaramillo</h1>
-			<h3>
-				<span>and</span> I'm a Software Developer
-			</h3>
-			<Link href={"#projects"}>Project Portfolio</Link>
-		</div>
-	);
+	return <div className={styles.main}></div>;
 }
 
 export default AboutSection;

@@ -1,0 +1,72 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/components/Home/home.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.home_main__3gOaY {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+.home_main__3gOaY p {
+	font-size: clamp(1rem, 3vw + 0.5rem, 1.8rem);
+	color: #535353;
+}
+
+.home_main__3gOaY h1 {
+	font-size: clamp(2.25rem, 5vw + 1rem, 5.625rem);
+	font-family: "Consolas";
+	font-weight: bold;
+}
+
+.home_main__3gOaY h3 {
+	font-size: clamp(1.3rem, 3vw + 0.2rem, 2.5rem);
+	font-family: "Consolas";
+	font-weight: 400;
+}
+
+.home_main__3gOaY h3 span {
+	color: #535353;
+}
+
+.home_main__3gOaY a {
+	font-size: 16px;
+	border: 1px solid white;
+	width: -moz-fit-content;
+	width: fit-content;
+	padding: 14px 38px;
+	margin-top: 45px;
+}
+
+.home_main__3gOaY a:hover {
+	opacity: 0.6;
+	color: red;
+	border-color: red;
+}
+
+.home_bg_img__6x7Gr {
+	/*font-size: 517px;*/
+	font-size: clamp(90px, 27vw + 25px, 517px);
+	background-size: cover;
+	z-index: -3;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	opacity: 0.4;
+	white-space: nowrap;
+	position: absolute;
+	left: 41vw;
+	top: 23.5vh;
+	background-image: url(/_next/static/media/computer-bg.ce62641f.webp);
+}
+
+@media screen and (max-width: 800px) {
+	.home_bg_img__6x7Gr {
+		top: 40vh;
+	}
+
+	.home_main__3gOaY h1,
+	.home_main__3gOaY h3 {
+		margin-top: 10px;
+	}
+}
+

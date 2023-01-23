@@ -91,6 +91,18 @@
 /******/ 		};
 /******/ 	}();
 /******/ 	
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	!function() {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = function(module) {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				function() { return module['default']; } :
+/******/ 				function() { return module; };
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	}();
+/******/ 	
 /******/ 	/* webpack/runtime/create fake namespace object */
 /******/ 	!function() {
 /******/ 		var getProto = Object.getPrototypeOf ? function(obj) { return Object.getPrototypeOf(obj); } : function(obj) { return obj.__proto__; };
@@ -180,7 +192,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "d89d20b3b5bdcb2e"; }
+/******/ 		__webpack_require__.h = function() { return "8520b08d1e2ad3bb"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -786,7 +798,7 @@
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = function(chunkId, promises) {
-/******/ 			var cssChunks = {"_app-client_src_components_About_about_module_css":1,"_app-client_src_app_page_module_css":1,"_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Inter_arg-d25629":1,"_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Roboto_Co-a21d17":1,"_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Roboto_ar-01ef3a":1,"_app-client_src_components_navBar_navBar_module_css":1,"_app-client_src_app_globals_css":1};
+/******/ 			var cssChunks = {"_app-client_src_components_About_about_module_css":1,"_app-client_src_components_Home_home_module_css":1,"_app-client_src_components_projects_projects_module_css":1,"_app-client_src_app_page_module_css":1,"_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Inter_arg-d25629":1,"_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Roboto_Co-a21d17":1,"_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Roboto_ar-01ef3a":1,"_app-client_src_components_navBar_navBar_module_css":1,"_app-client_src_app_globals_css":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(function() {

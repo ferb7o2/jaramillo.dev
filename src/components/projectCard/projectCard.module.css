@@ -1,0 +1,158 @@
+.card {
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	min-width: 300px;
+	max-width: 300px;
+	max-height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 1px 2px 3px #000;
+	overflow: hidden;
+	z-index: 0;
+}
+
+.title {
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	width: 90%;
+	text-align: center;
+}
+.card span {
+	color: black;
+	font-size: 15px;
+	width: 95%;
+	text-align: center;
+	margin-top: 8px;
+	font-weight: 300;
+}
+
+.card .lower_info p {
+	font-size: 16px;
+	color: black;
+	width: 80%;
+	text-align: center;
+	height: 100%;
+	margin-top: 15px;
+}
+
+.card .logo_row {
+	height: 30px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.btn_row {
+	display: flex;
+	height: 42px;
+	width: 80%;
+	margin-bottom: 26px;
+	margin-top: 31px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn_row a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 110px;
+	font-size: 16px;
+	font-family: "Roboto";
+	font-weight: 400;
+	border: 1px solid black;
+	border-radius: 4px;
+	color: black;
+	background-color: white;
+}
+
+.black_btn {
+	background-color: black !important;
+	color: white !important;
+}
+
+.btn_row a:hover {
+	opacity: 0.7;
+}
+
+.card_bottom {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.img_container {
+	height: 200px;
+	width: 95%;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.upper_info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.lower_info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+
+.card:hover {
+	transform: scale(1.02);
+}
+
+@media screen and (max-height: 500px) {
+	.card {
+		max-width: 250px;
+		min-width: 250px;
+		max-height: 350px;
+	}
+
+	.title {
+		font-size: 18px;
+	}
+
+	.img_container {
+		border: 1px solid red;
+		height: fit-content;
+		padding-top: 2px;
+	}
+
+	.logo_row {
+		display: none !important;
+	}
+
+	.btn_row {
+		height: 30px;
+		margin: 5px;
+	}
+
+	.lower_info p {
+		margin-top: 5px !important;
+		font-size: 14px !important;
+		max-height: 80px !important;
+		overflow: hidden;
+	}
+
+	.upper_info span {
+		margin-top: 0px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.card {
+		max-height: 570px;
+	}
+}

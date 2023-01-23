@@ -5,19 +5,25 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: sticky;
-	position: absolute;
+	position: fixed;
 	overflow: hidden;
+	z-index: 7;
+}
+
+.navBar p {
+	z-index: 9;
 }
 
 .navTitle {
 	font-size: 16px;
+	z-index: 99;
 }
 
 .navbar_nav_row {
 	display: flex;
 	gap: 21px;
 	align-items: center;
+	z-index: 10;
 }
 
 .navbar_nav_row a {
@@ -39,7 +45,12 @@
 	top: 0;
 	left: 0;
 	z-index: -1;
+	background-color: rgba(0, 0, 0, 0.61);
+	top: 0;
+	margin-top: -2px;
 	-webkit-filter: blur(6px);
+	backdrop-filter: blur(5px);
 	filter: blur(6px);
 	position: absolute;
+	z-index: 4;
 }
