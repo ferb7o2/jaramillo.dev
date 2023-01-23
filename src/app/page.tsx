@@ -1,6 +1,7 @@
 import AboutSection from "@/components/About/about";
 import HomeSection from "@/components/Home/home";
 import ProjectsSection from "@/components/projects/projects";
+import ContactSection from "@/screens/contact/contact";
 import Image from "next/image";
 
 import styles from "./page.module.css";
@@ -10,6 +11,7 @@ export default function Home() {
 		<main className={styles.main}>
 			<HomeSection />
 			<ProjectsSection />
+			<ContactSection />
 			<AboutSection />
 		</main>
 	);

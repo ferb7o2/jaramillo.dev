@@ -46,3 +46,6 @@ amplifytools.xcconfig
 
 .env
 *.hot-update.js
+
+/.next
+.next
