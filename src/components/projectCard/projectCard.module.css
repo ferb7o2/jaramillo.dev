@@ -155,4 +155,8 @@
 	.card {
 		max-height: 570px;
 	}
+
+	.btn_row {
+		margin-top: 15px;
+	}
 }

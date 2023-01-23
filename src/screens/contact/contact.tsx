@@ -13,7 +13,9 @@ function ContactSection() {
 					<span>Let me know what's on your mind, we can make it happen!</span>
 					<div className={styles.email_row}>
 						<Envelope width={30} height={30} fill={"white"} />
-						<Link href="#mail">Fernando@jaramillo.dev</Link>
+						<Link href="mailto:fernando@jaramillo.dev">
+							Fernando@jaramillo.dev
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -25,7 +27,7 @@ function ContactSection() {
 					</label>
 					<label htmlFor="email">
 						EMAIL
-						<input id="email" />
+						<input id="email" type="email" />
 					</label>
 					<label htmlFor="content">
 						MESSAGE

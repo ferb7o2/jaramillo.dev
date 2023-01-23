@@ -81,7 +81,7 @@ export const projectData = [
 		imgSrc: Sanangel_web,
 		shortDescription: "Business front-end website",
 		description:
-			"ReactJs Front-end website that dynamically displays product data from business' Point-of-Sale system via the our API, which fetches product data from the Clover API, pre-processes it & serves it",
+			"ReactJs Front-end website that dynamically displays product data from business' Point-of-Sale system via our API, which fetches product data from the Clover API, pre-processes it & serves it",
 		webLink: "https://www.sanangelmx.com/",
 		repoLink: "https://github.com/JoseJaramillo04/sanangelmx.com",
 		icons: [TsLogox, CssLogox, ReactLogox, AmplifyLogox, NodeLogox],

@@ -7,7 +7,7 @@ import Carousel from "../carousel/carousel";
 
 function ProjectsSection() {
 	return (
-		<div className={styles.main}>
+		<div className={styles.main} id="projects">
 			<h2 className={styles.heading}>PROJECTS</h2>
 			<p>What am I up to?</p>
 

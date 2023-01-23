@@ -110,15 +110,16 @@
 	.right_side {
 		width: 95%;
 		text-align: center;
-		height: 50%;
+		height: 40%;
+	}
+
+	.right_side {
+		height: 60%;
 	}
 
 	.email_row {
 		align-self: center;
 		margin-top: 20px;
-	}
-
-	.contact_section {
 	}
 
 	.contact_section label {
@@ -127,6 +128,10 @@
 
 	.right_side .contact_section {
 		gap: 15px;
+	}
+
+	.contact_section button {
+		margin-top: 0px;
 	}
 }
 
