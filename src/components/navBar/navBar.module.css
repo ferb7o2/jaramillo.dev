@@ -34,7 +34,7 @@
 .navbar_nav_row a {
 	font-size: 12px;
 	font-weight: 500;
-	font-family: "Roboto" I !important;
+	font-family: var(--roboto-font) I !important;
 }
 
 .navbar_nav_row a:hover {
