@@ -17,19 +17,19 @@ function ContentCard() {
 			<ul className={styles.nav_row}>
 				{tab == "AboutMe" ? (
 					<>
-						<Link href={{ query: { tab: "Education" } }}>
+						<Link href={{ query: { tab: "Education" } }} scroll={false}>
 							<li>Education</li>
 						</Link>
-						<Link href={{ query: { tab: "AboutMe" } }}>
+						<Link href={{ query: { tab: "AboutMe" } }} scroll={false}>
 							<li className={styles.selected}>About Me</li>
 						</Link>
 					</>
 				) : (
 					<>
-						<Link href={{ query: { tab: "Education" } }}>
+						<Link href={{ query: { tab: "Education" } }} scroll={false}>
 							<li className={styles.selected}>Education</li>
 						</Link>
-						<Link href={{ query: { tab: "AboutMe" } }}>
+						<Link href={{ query: { tab: "AboutMe" } }} scroll={false}>
 							<li>About Me</li>
 						</Link>
 					</>
