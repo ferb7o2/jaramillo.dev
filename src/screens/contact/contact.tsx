@@ -19,7 +19,7 @@ function ContactSection() {
 					</div>
 				</div>
 			</div>
-			<div className={styles.right_side}>
+			<form className={styles.right_side}>
 				<div className={styles.contact_section}>
 					<label htmlFor="name">
 						NAME
@@ -35,7 +35,7 @@ function ContactSection() {
 					</label>
 					<button>SEND</button>
 				</div>
-			</div>
+			</form>
 		</div>
 	);
 }

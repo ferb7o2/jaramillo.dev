@@ -78,6 +78,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./public/assets/images/headshot.webp": {
+      "": {
+        "id": "(sc_client)/./public/assets/images/headshot.webp",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/assets/images/headshot.webp",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/assets/images/headshot.webp",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/assets/images/lyrics-project-prev.webp": {
       "": {
         "id": "(sc_client)/./public/assets/images/lyrics-project-prev.webp",
@@ -182,6 +208,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./public/assets/images/utrgv-campus.jpeg": {
+      "": {
+        "id": "(sc_client)/./public/assets/images/utrgv-campus.jpeg",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/assets/images/utrgv-campus.jpeg",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/assets/images/utrgv-campus.jpeg",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/link.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
@@ -227,6 +279,32 @@ self.__RSC_MANIFEST={
       },
       "default": {
         "id": "(sc_client)/./src/components/carousel/carousel.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/contentCard/contentCard.tsx": {
+      "": {
+        "id": "(sc_client)/./src/components/contentCard/contentCard.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/components/contentCard/contentCard.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/contentCard/contentCard.tsx",
         "name": "default",
         "chunks": [
           "app/page:app/page"
@@ -367,6 +445,15 @@ self.__RSC_MANIFEST={
       ]
     }
   },
+  "/Users/ferb7o2/personalCode/jaramillo.dev/src/components/contentCard/contentCard.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
   "/Users/ferb7o2/personalCode/jaramillo.dev/src/components/projectCard/projectCard.module.css": {
     "default": {
       "id": "null",
@@ -447,6 +534,32 @@ self.__RSC_MANIFEST={
     },
     "default": {
       "id": "(app-client)/./public/assets/images/halsey-project-prev.webp",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ferb7o2/personalCode/jaramillo.dev/public/assets/images/headshot.webp": {
+    "": {
+      "id": "(app-client)/./public/assets/images/headshot.webp",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/assets/images/headshot.webp",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/assets/images/headshot.webp",
       "name": "default",
       "chunks": [
         "app/page:app/page"
@@ -558,6 +671,32 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/Users/ferb7o2/personalCode/jaramillo.dev/public/assets/images/utrgv-campus.jpeg": {
+    "": {
+      "id": "(app-client)/./public/assets/images/utrgv-campus.jpeg",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/assets/images/utrgv-campus.jpeg",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/assets/images/utrgv-campus.jpeg",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
   "/Users/ferb7o2/personalCode/jaramillo.dev/node_modules/next/dist/client/link.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
@@ -629,6 +768,32 @@ self.__RSC_MANIFEST={
     },
     "default": {
       "id": "(app-client)/./src/components/carousel/carousel.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ferb7o2/personalCode/jaramillo.dev/src/components/contentCard/contentCard.tsx": {
+    "": {
+      "id": "(app-client)/./src/components/contentCard/contentCard.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/components/contentCard/contentCard.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/components/contentCard/contentCard.tsx",
       "name": "default",
       "chunks": [
         "app/page:app/page"

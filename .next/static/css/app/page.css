@@ -1,4 +1,215 @@
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/components/contentCard/contentCard.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.contentCard_content__CyRmt,
+.contentCard_about_content___6T1v {
+	margin-top: 30px;
+	width: 100%;
+	height: 70vh;
+	overflow: hidden;
+}
+
+.contentCard_campus_img__jD1NE {
+	width: 100%;
+	height: auto;
+	max-height: 400px;
+	object-fit: cover;
+}
+
+.contentCard_content__CyRmt p {
+	font-size: 28px;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.contentCard_text_content__fTCXF {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	gap: 5px;
+}
+
+.contentCard_text_content__fTCXF .contentCard_selected__gDGPB {
+	color: white;
+}
+
+.contentCard_content_section__VGOZ7 ul li {
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+	color: #ff0000;
+	opacity: 0.5;
+	font-weight: bold;
+}
+
+.contentCard_content_section__VGOZ7 ul {
+	margin-top: 40px;
+	display: flex;
+	gap: 40px;
+}
+
+.contentCard_content_section__VGOZ7 ul li:hover {
+	opacity: 1;
+	transform: scale(1.05);
+}
+
+.contentCard_selected__gDGPB {
+	opacity: 1 !important;
+	color: white;
+}
+
+.contentCard_thirty__yEs2z {
+	width: 40%;
+	height: 100%;
+}
+
+.contentCard_seventy__LVuB_ {
+	width: 60%;
+	height: 100%;
+}
+
+.contentCard_thirty__yEs2z,
+.contentCard_seventy__LVuB_ {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contentCard_about_content___6T1v {
+	display: flex;
+	flex-direction: row;
+}
+
+.contentCard_img_container__cQuUc {
+	display: flex;
+	width: 100%;
+
+	height: 75%;
+	justify-content: center;
+	align-items: center;
+}
+
+.contentCard_seventy_txt__C0EoA {
+	width: 90%;
+	height: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contentCard_seventy_txt__C0EoA h3 {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.contentCard_seventy_txt__C0EoA p {
+	font-size: 19px;
+	font-weight: bold;
+	margin-top: 20px;
+	line-height: 30px;
+}
+
+.contentCard_seventy_txt__C0EoA .contentCard_second__xjW2R {
+	margin-top: 40px;
+}
+
+.contentCard_content__CyRmt,
+.contentCard_about_content___6T1v {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	padding: 10px;
+}
+
+.contentCard_content__CyRmt:hover,
+.contentCard_about_content___6T1v:hover {
+	transform: scale(1.025);
+}
+
+.contentCard_self_img__tM5is {
+	width: 100%;
+	height: auto;
+	height: 600px;
+	border: 1px solid red;
+
+	object-fit: cover;
+}
+
+@media screen and (max-width: 800px) {
+	.contentCard_content__CyRmt p {
+		font-size: 21px;
+	}
+
+	.contentCard_about_content___6T1v {
+		flex-direction: column;
+	}
+
+	.contentCard_about_content___6T1v .contentCard_seventy_txt__C0EoA,
+	.contentCard_seventy__LVuB_,
+	.contentCard_about_content___6T1v .contentCard_thirty__yEs2z {
+		width: 100%;
+	}
+
+	.contentCard_about_content___6T1v h3 {
+		font-size: 20px;
+	}
+
+	.contentCard_about_content___6T1v p {
+		margin-top: 10px;
+		font-size: 15px;
+		line-height: 25px;
+	}
+
+	.contentCard_about_content___6T1v .contentCard_second__xjW2R {
+		margin-top: 20px;
+	}
+
+	.contentCard_seventy_txt__C0EoA {
+		height: 100%;
+		margin-top: 5px;
+	}
+
+	.contentCard_img_container__cQuUc {
+		height: 100%;
+		border: 1px solid green;
+	}
+
+	.contentCard_self_img__tM5is {
+		max-height: 300px;
+	}
+}
+
+@media screen and (max-height: 500px) {
+	.contentCard_campus_img__jD1NE {
+		max-height: 30vh;
+	}
+
+	.contentCard_self_img__tM5is {
+		max-height: 100%;
+	}
+	.contentCard_content__CyRmt p {
+		font-size: 18px;
+	}
+
+	.contentCard_about_content___6T1v h3 {
+		font-size: 18px;
+	}
+
+	.contentCard_about_content___6T1v p {
+		font-size: 14px;
+		margin-top: 5px;
+		line-height: 22px;
+	}
+
+	.contentCard_about_content___6T1v .contentCard_second__xjW2R {
+		margin-top: 10px;
+	}
+
+	.contentCard_seventy_txt__C0EoA {
+		height: 100%;
+	}
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/components/projectCard/projectCard.module.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************/
 .projectCard_card__F_eEC {

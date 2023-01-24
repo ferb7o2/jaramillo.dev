@@ -11,9 +11,10 @@ export default function Home() {
 	return (
 		<main className={styles.main}>
 			<HomeSection />
+
+			<AboutSection />
 			<ProjectsSection />
 			<ContactSection />
-			<AboutSection />
 			<Footer />
 		</main>
 	);
