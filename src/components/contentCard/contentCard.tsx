@@ -16,15 +16,21 @@ function ContentCard() {
 
 	const params = new URLSearchParams();
 
+	const changeTab = (query: string, e: any) => {
+		e.preventDefault();
+
+		params.set("tab", query);
+		router.replace(`${pathname}?${params}`);
+	};
+
 	return (
 		<div className={styles.content_section}>
 			<ul className={styles.nav_row}>
 				{tab == "AboutMe" ? (
 					<>
 						<a
-							onClick={() => {
-								params.set("tab", "Education");
-								router.replace(`${pathname}?${params}`);
+							onClick={(e) => {
+								changeTab("Education", e);
 							}}
 						>
 							<li>Education</li>
