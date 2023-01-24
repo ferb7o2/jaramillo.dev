@@ -3,8 +3,8 @@ import localFont from "@next/font/local";
 import { roboto, roboto_condensed } from "./fonts";
 const consolas = localFont({
 	src: [
-		{ path: "../../public/fonts/CONSOLA.TTF", weight: "400" },
-		{ path: "../../public/fonts/CONSOLAB.TTF", weight: "700" },
+		{ path: "../../public/fonts/Consolas.woff2", weight: "400" },
+		{ path: "../../public/fonts/Consolas-Bold.woff", weight: "700" },
 	],
 });
 export default function GlobalFont() {

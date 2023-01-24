@@ -83,7 +83,7 @@ self["webpackHotUpdate_N_E"]("webpack",{},
 /******/ 
 /******/ /* webpack/runtime/getFullHash */
 /******/ !function() {
-/******/ 	__webpack_require__.h = function() { return "3acba09ff4889d0a"; }
+/******/ 	__webpack_require__.h = function() { return "ac98467daa7066a6"; }
 /******/ }();
 /******/ 
 /******/ /* webpack/runtime/make namespace object */
@@ -167,7 +167,7 @@ self["webpackHotUpdate_N_E"]("webpack",{},
 /******/ 	};
 /******/ 	
 /******/ 	__webpack_require__.f.miniCss = function(chunkId, promises) {
-/******/ 		var cssChunks = {"_app-client_src_app_globals_css":1,"_app-client_src_components_navBar_navBar_module_css":1,"_app-client_src_app_page_module_css":1,"_app-client_src_components_About_about_module_css":1,"_app-client_src_components_projects_projects_module_css":1,"_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Inter_arg-13a4a0":1,"_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Roboto_Co-3fe67d":1,"_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Roboto_ar-912680":1,"_app-client_src_components_Home_home_module_css":1,"_app-client_src_components_footer_footer_module_css":1,"_app-client_src_screens_contact_contact_module_css":1};
+/******/ 		var cssChunks = {"_app-client_src_components_About_about_module_css":1,"_app-client_src_components_Home_home_module_css":1,"_app-client_src_components_projects_projects_module_css":1,"_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Inter_arg-13a4a0":1,"_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Roboto_Co-3fe67d":1,"_app-client_node_modules_next_font_google_target_css_path_src_utils_fonts_ts_import_Roboto_ar-912680":1,"_app-client_src_screens_contact_contact_module_css":1,"_app-client_src_components_footer_footer_module_css":1,"_app-client_src_app_page_module_css":1,"_app-client_src_components_navBar_navBar_module_css":1,"_app-client_src_app_globals_css":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(function() {
