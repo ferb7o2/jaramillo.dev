@@ -3,35 +3,59 @@ import React from "react";
 import UtrgvImage from "../../../public/assets/images/utrgv-campus.jpeg";
 import Image from "next/image";
 import styles from "./contentCard.module.css";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 import HeadShot from "../../../public/assets/images/headshot.webp";
 
 function ContentCard() {
 	const searchParams = useSearchParams();
+	const router = useRouter();
+	const pathname = usePathname();
 
 	const tab = searchParams.get("tab");
+
+	const params = new URLSearchParams();
 
 	return (
 		<div className={styles.content_section}>
 			<ul className={styles.nav_row}>
 				{tab == "AboutMe" ? (
 					<>
-						<Link href={{ query: { tab: "Education" } }} scroll={false}>
+						<a
+							onClick={() => {
+								params.set("tab", "Education");
+								router.replace(`${pathname}?${params}`);
+							}}
+						>
 							<li>Education</li>
-						</Link>
-						<Link href={{ query: { tab: "AboutMe" } }} scroll={false}>
+						</a>
+						<a
+							onClick={() => {
+								params.set("tab", "AboutMe");
+								router.replace(`${pathname}?${params}`);
+							}}
+						>
 							<li className={styles.selected}>About Me</li>
-						</Link>
+						</a>
 					</>
 				) : (
 					<>
-						<Link href={{ query: { tab: "Education" } }} scroll={false}>
+						<a
+							onClick={() => {
+								params.set("tab", "Education");
+								router.replace(`${pathname}?${params}`);
+							}}
+						>
 							<li className={styles.selected}>Education</li>
-						</Link>
-						<Link href={{ query: { tab: "AboutMe" } }} scroll={false}>
+						</a>
+						<a
+							onClick={() => {
+								params.set("tab", "AboutMe");
+								router.replace(`${pathname}?${params}`);
+							}}
+						>
 							<li>About Me</li>
-						</Link>
+						</a>
 					</>
 				)}
 			</ul>
