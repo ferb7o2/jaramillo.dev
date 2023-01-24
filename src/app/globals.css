@@ -82,6 +82,11 @@ body {
 	overflow-x: hidden;
 }
 
+html {
+	--scroll-behavior: smooth !important;
+	scroll-behavior: smooth !important;
+}
+
 html,
 body,
 a,

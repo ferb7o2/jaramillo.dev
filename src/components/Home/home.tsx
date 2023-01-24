@@ -11,9 +11,7 @@ function HomeSection() {
 			<h3>
 				<span>and</span> I'm a Software Developer
 			</h3>
-			<Link href={"/#projects"} scroll={false}>
-				Project Portfolio
-			</Link>
+			<a href={"#projects"}>Project Portfolio</a>
 		</div>
 	);
 }

@@ -597,12 +597,12 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 4836:
+/***/ 1887:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5591));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3490));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2919, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3490))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5591))
 
 /***/ }),
 
@@ -720,15 +720,15 @@ function NavBar() {
                 className: (navBar_module_default()).navbar_nav_row,
                 children: [
                     /*#__PURE__*/ jsx_runtime.jsx("a", {
-                        href: "/#about",
+                        href: "#about",
                         children: "ABOUT"
                     }),
                     /*#__PURE__*/ jsx_runtime.jsx("a", {
-                        href: "/#projects",
+                        href: "#projects",
                         children: "PROJECTS"
                     }),
                     /*#__PURE__*/ jsx_runtime.jsx("a", {
-                        href: "/#contact",
+                        href: "#contact",
                         children: "CONTACT"
                     }),
                     /*#__PURE__*/ jsx_runtime.jsx(github_logo/* default */.Z, {
@@ -826,14 +826,10 @@ function AboutSection() {
 }
 /* harmony default export */ const about = (AboutSection);
 
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(2890);
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 // EXTERNAL MODULE: ./src/components/Home/home.module.css
 var home_module = __webpack_require__(6218);
 var home_module_default = /*#__PURE__*/__webpack_require__.n(home_module);
 ;// CONCATENATED MODULE: ./src/components/Home/home.tsx
-
 
 
 
@@ -859,9 +855,8 @@ function HomeSection() {
                     " I'm a Software Developer"
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                href: "/#projects",
-                scroll: false,
+            /*#__PURE__*/ jsx_runtime.jsx("a", {
+                href: "#projects",
                 children: "Project Portfolio"
             })
         ]
@@ -903,6 +898,9 @@ function ProjectsSection() {
 }
 /* harmony default export */ const projects = (ProjectsSection);
 
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(2890);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 // EXTERNAL MODULE: ./src/screens/contact/contact.module.css
 var contact_module = __webpack_require__(5559);
 var contact_module_default = /*#__PURE__*/__webpack_require__.n(contact_module);
