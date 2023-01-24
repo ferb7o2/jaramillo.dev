@@ -17,6 +17,7 @@
 .navTitle {
 	font-size: 16px;
 	z-index: 99;
+	font-family: var(--roboto-condensed-font);
 }
 
 .navbar_nav_row {
@@ -29,6 +30,7 @@
 .navbar_nav_row a {
 	font-size: 12px;
 	font-weight: 500;
+	font-family: var(--roboto-font);
 }
 
 .navbar_nav_row a:hover {
@@ -53,4 +55,14 @@
 	filter: blur(6px);
 	position: absolute;
 	z-index: 4;
+}
+
+@media screen and (max-width: 700px) {
+	.navbar_nav_row {
+		display: none;
+	}
+
+	.navBar {
+		justify-content: center;
+	}
 }

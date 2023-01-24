@@ -1,4 +1,3 @@
-import { roboto_condensed } from "@/utils/fonts";
 import Link from "next/link";
 import React from "react";
 import styles from "./navBar.module.css";
@@ -11,9 +10,10 @@ function NavBar() {
 	return (
 		<header className={styles.navBar}>
 			<div className={styles.blurred_bg} />
-			<p className={(styles.navTitle, roboto_condensed.className)}>
+			<p className={styles.navTitle}>
 				<span className="bold">JARAMILLO</span> FERNANDO
 			</p>
+
 			<div className={styles.navbar_nav_row}>
 				<Link href={"#about"}>ABOUT</Link>
 				<Link href={"#projects"}>PROJECTS</Link>
@@ -22,7 +22,6 @@ function NavBar() {
 					width={24}
 					height={23.41}
 					fill={"white"}
-					pointer-events="all"
 					clasName={styles.svgIcon}
 				/>
 				<LinkedInLogo

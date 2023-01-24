@@ -5,6 +5,11 @@
 	flex-direction: row;
 }
 
+.main input,
+.main textarea {
+	font-family: "Consolas";
+}
+
 .left_side,
 .right_side {
 	width: 50%;
@@ -19,6 +24,7 @@
 	font-size: 20px;
 	color: #ff0000;
 	font-weight: bold;
+	font-family: var(--roboto-condensed-font);
 }
 
 .contact_section {
@@ -30,6 +36,7 @@
 	font-size: 48px;
 	font-weight: bold;
 	margin-top: 8px;
+	font-family: var(--roboto-condensed-font);
 }
 
 .left_side span {
@@ -80,6 +87,7 @@
 
 .box_input {
 	height: auto;
+
 	min-height: 170px;
 }
 

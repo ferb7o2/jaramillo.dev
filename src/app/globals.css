@@ -106,3 +106,16 @@ a {
 .bold {
 	font-weight: bold;
 }
+
+@font-face {
+	font-family: "Consolas";
+	src: url("../../public/fonts/CONSOLA.TTF");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Consolas";
+	src: url("../../public/fonts/CONSOLAB.TTF");
+	font-weight: bold;
+	font-style: normal;
+}

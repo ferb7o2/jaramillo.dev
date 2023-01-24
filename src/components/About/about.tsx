@@ -1,3 +1,4 @@
+import { roboto_condensed } from "@/utils/fonts";
 import Link from "next/link";
 import React from "react";
 import ContentCard from "../contentCard/contentCard";

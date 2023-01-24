@@ -20,6 +20,7 @@
 .navBar_navTitle__2qeZI {
 	font-size: 16px;
 	z-index: 99;
+	font-family: var(--roboto-condensed-font);
 }
 
 .navBar_navbar_nav_row__Vu2Ok {
@@ -32,6 +33,7 @@
 .navBar_navbar_nav_row__Vu2Ok a {
 	font-size: 12px;
 	font-weight: 500;
+	font-family: var(--roboto-font);
 }
 
 .navBar_navbar_nav_row__Vu2Ok a:hover {
@@ -57,5 +59,15 @@
 	filter: blur(6px);
 	position: absolute;
 	z-index: 4;
+}
+
+@media screen and (max-width: 700px) {
+	.navBar_navbar_nav_row__Vu2Ok {
+		display: none;
+	}
+
+	.navBar_navBar__tJD6G {
+		justify-content: center;
+	}
 }
 

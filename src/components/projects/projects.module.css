@@ -12,6 +12,7 @@
 	color: #ff0000;
 	font-weight: bold;
 	margin-top: 80px;
+	font-family: var(--roboto-condensed-font);
 }
 
 .main p {
