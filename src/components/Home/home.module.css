@@ -33,6 +33,7 @@
 	width: fit-content;
 	padding: 14px 38px;
 	margin-top: 45px;
+	font-family: var(--roboto-font);
 }
 
 .main a:hover {

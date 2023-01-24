@@ -24,7 +24,7 @@
 	font-size: 20px;
 	color: #ff0000;
 	font-weight: bold;
-	font-family: var(--roboto-condensed-font);
+	font-family: var(--roboto-condensed-font) !important;
 }
 
 .contact_section {
@@ -36,7 +36,7 @@
 	font-size: 48px;
 	font-weight: bold;
 	margin-top: 8px;
-	font-family: var(--roboto-condensed-font);
+	font-family: var(--roboto-condensed-font) !important;
 }
 
 .left_side span {

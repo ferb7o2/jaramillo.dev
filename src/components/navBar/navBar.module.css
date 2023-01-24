@@ -17,7 +17,11 @@
 .navTitle {
 	font-size: 16px;
 	z-index: 99;
-	font-family: var(--roboto-condensed-font);
+	font-family: var(--roboto-condensed-font) !important;
+}
+
+.navTitle span {
+	font-family: var(--roboto-condensed-font) !important;
 }
 
 .navbar_nav_row {
@@ -30,7 +34,7 @@
 .navbar_nav_row a {
 	font-size: 12px;
 	font-weight: 500;
-	font-family: var(--roboto-font);
+	font-family: "Roboto" I !important;
 }
 
 .navbar_nav_row a:hover {

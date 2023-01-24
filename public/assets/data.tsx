@@ -22,58 +22,28 @@ import GitLogo from "./svgs/github-logo.svg";
 import NextLogo from "./svgs/nextdotjs.svg";
 import JsLogo from "./svgs/javascript.svg";
 
-const TsLogox = (
-	<TsLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
+const TsLogox = <TsLogo width={30} height={30} fill={"black"} />;
 
-const CssLogox = (
-	<CssLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
-const ReactLogox = (
-	<ReactLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
+const CssLogox = <CssLogo width={30} height={30} fill={"black"} />;
+const ReactLogox = <ReactLogo width={30} height={30} fill={"black"} />;
 
-const AmplifyLogox = (
-	<AmplifyLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
+const AmplifyLogox = <AmplifyLogo width={30} height={30} fill={"black"} />;
 
-const DynamoLogox = (
-	<DynamoLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
+const DynamoLogox = <DynamoLogo width={30} height={30} fill={"black"} />;
 
-const JestLogox = (
-	<JestLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
-const NodeLogox = (
-	<NodeLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
-const XcodeLogox = (
-	<XcodeLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
-const ExpressLogox = (
-	<ExpressLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
-const HtmlLogox = (
-	<HtmlLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
+const JestLogox = <JestLogo width={30} height={30} fill={"black"} />;
+const NodeLogox = <NodeLogo width={30} height={30} fill={"black"} />;
+const XcodeLogox = <XcodeLogo width={30} height={30} fill={"black"} />;
+const ExpressLogox = <ExpressLogo width={30} height={30} fill={"black"} />;
+const HtmlLogox = <HtmlLogo width={30} height={30} fill={"black"} />;
 const ServerlessLogox = (
-	<ServerlessLogo width={30} height={30} fill={"black"} pointer-events="all" />
+	<ServerlessLogo width={30} height={30} fill={"black"} />
 );
-const SwiftLogox = (
-	<SwiftLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
-const MongoLogox = (
-	<MongoLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
-const GitLogox = (
-	<GitLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
-const NextLogox = (
-	<NextLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
-const JsLogox = (
-	<JsLogo width={30} height={30} fill={"black"} pointer-events="all" />
-);
+const SwiftLogox = <SwiftLogo width={30} height={30} fill={"black"} />;
+const MongoLogox = <MongoLogo width={30} height={30} fill={"black"} />;
+const GitLogox = <GitLogo width={30} height={30} fill={"black"} />;
+const NextLogox = <NextLogo width={30} height={30} fill={"black"} />;
+const JsLogox = <JsLogo width={30} height={30} fill={"black"} />;
 
 export const projectData = [
 	{

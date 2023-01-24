@@ -27,11 +27,12 @@
 }
 
 .text_content p {
-	font-family: var(--roboto-condensed-font);
+	font-family: var(--roboto-condensed-font) !important;
 }
 
 .text_content .selected {
 	color: white;
+	font-family: var(--roboto-condensed-font) !important;
 }
 
 .content_section ul li {
@@ -41,7 +42,7 @@
 	color: #ff0000;
 	opacity: 0.5;
 	font-weight: bold;
-	font-family: var(--roboto-condensed-font);
+	font-family: var(--roboto-condensed-font) !important;
 }
 
 .content_section ul {
@@ -103,7 +104,7 @@
 	color: rgba(255, 255, 255, 0.5);
 	font-size: 28px;
 	font-weight: bold;
-	font-family: var(--roboto-condensed-font);
+	font-family: var(--roboto-condensed-font) !important;
 }
 
 .seventy_txt p {
