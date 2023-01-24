@@ -20,9 +20,9 @@ function ContentCard() {
 						<Link href="?tab=Education">
 							<li>Education</li>
 						</Link>
-						<Link href="?tab=AboutMe">
+						<a href="?tab=AboutMe">
 							<li className={styles.selected}>About Me</li>
-						</Link>
+						</a>
 					</>
 				) : (
 					<>
