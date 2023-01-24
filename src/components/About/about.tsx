@@ -6,7 +6,7 @@ import styles from "./about.module.css";
 
 function AboutSection() {
 	return (
-		<div className={styles.main}>
+		<div className={styles.main} id="about">
 			<h2>ABOUT</h2>
 
 			<ContentCard />

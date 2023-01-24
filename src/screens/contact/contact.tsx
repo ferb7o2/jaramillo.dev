@@ -5,7 +5,7 @@ import Envelope from "../../../public/assets/svgs/envelope.svg";
 
 function ContactSection() {
 	return (
-		<div className={styles.main}>
+		<div className={styles.main} id="contact">
 			<div className={styles.left_side}>
 				<div className={styles.contact_section}>
 					<p>CONTACT</p>

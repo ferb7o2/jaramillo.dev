@@ -1,4 +1,3 @@
-import { roboto_condensed } from "@/utils/fonts";
 import Link from "next/link";
 import React from "react";
 import styles from "./home.module.css";
@@ -12,7 +11,9 @@ function HomeSection() {
 			<h3>
 				<span>and</span> I'm a Software Developer
 			</h3>
-			<Link href={"#projects"}>Project Portfolio</Link>
+			<Link href={"/#projects"} scroll={false}>
+				Project Portfolio
+			</Link>
 		</div>
 	);
 }

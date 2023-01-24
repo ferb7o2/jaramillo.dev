@@ -15,9 +15,9 @@ function NavBar() {
 			</p>
 
 			<div className={styles.navbar_nav_row}>
-				<Link href={"#about"}>ABOUT</Link>
-				<Link href={"#projects"}>PROJECTS</Link>
-				<Link href={"#contact"}>CONTACT</Link>
+				<a href={"/#about"}>ABOUT</a>
+				<a href={"/#projects"}>PROJECTS</a>
+				<a href={"/#contact"}>CONTACT</a>
 				<GitLogo
 					width={24}
 					height={23.41}
