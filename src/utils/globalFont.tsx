@@ -25,7 +25,7 @@ export default function GlobalFont() {
 			h3,
 			h4,
 			span {
-				font-family: var(--roboto-font);
+				font-family: var(--roboto-font), Open-sans;
 			}
 		`}</style>
 	);
