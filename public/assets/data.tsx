@@ -3,7 +3,7 @@ import Sanangel_web from "./images/sanangel-project-prev.webp";
 import Pjl_web from "./images/pjl-project-prev.webp";
 import Myflick_web from "./images/myflick-project-prev.webp";
 import Lyrics_web from "./images/lyrics-project-prev.webp";
-import Open_web from "./images/Open-project-prev.webp";
+import Open_web from "./images/open-project-prev.webp";
 import Currently_web from "./images/currently-project-prev.webp";
 import TsLogo from "./svgs/typescript-logo.svg";
 import CssLogo from "./svgs/css3-logo.svg";
