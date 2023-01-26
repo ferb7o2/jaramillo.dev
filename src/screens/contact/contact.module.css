@@ -1,0 +1,187 @@
+.main {
+	width: 95%;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.main input,
+.main textarea {
+	font-family: "Consolas";
+}
+
+.left_side,
+.right_side {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.left_side p {
+	font-size: 20px;
+	color: #ff0000;
+	font-weight: bold;
+	font-family: var(--roboto-condensed-font) !important;
+}
+
+.contact_section {
+	display: flex;
+	flex-direction: column;
+}
+
+.left_side h1 {
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 8px;
+	font-family: var(--roboto-condensed-font) !important;
+}
+
+.left_side span {
+	font-size: 18px;
+	opacity: 0.75;
+	margin-top: 20px;
+}
+.email_row {
+	margin-top: 85px;
+	display: flex;
+	align-items: center;
+	gap: 3px;
+}
+
+.envelope {
+	margin-top: -3px;
+}
+
+.left_side a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.left_side a:hover {
+	text-decoration: underline;
+}
+
+.right_side .contact_section {
+	width: 100%;
+	max-width: 450px;
+	gap: 35px;
+}
+
+.right_side label {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	font-size: 15px;
+
+	color: #ff0000 !important;
+}
+
+.right_side input,
+.right_side textarea {
+	width: 100%;
+	max-width: 450px;
+	height: 35px;
+	background-color: black;
+	border: 1px solid rgba(255, 255, 255, 0.7);
+	padding: 0px 10px;
+	font-size: 18px;
+	color: white;
+}
+
+.box_input {
+	height: auto;
+	color: white;
+	min-height: 170px;
+}
+
+.right_side button {
+	width: 100%;
+	max-width: 110px;
+	height: 35px;
+	background-color: black;
+	border: 1px solid #ff0000;
+	color: #ff0000;
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+.right_side button:hover {
+	color: black;
+	background-color: #ff0000;
+	transform: scale(1.02);
+}
+
+@media screen and (max-width: 600px) {
+	.main {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.left_side,
+	.right_side {
+		width: 95%;
+		text-align: center;
+		height: 40%;
+	}
+
+	.right_side {
+		height: 60%;
+	}
+
+	.email_row {
+		align-self: center;
+		margin-top: 20px;
+	}
+
+	.contact_section label {
+		text-align: left;
+	}
+
+	.right_side .contact_section {
+		gap: 15px;
+	}
+
+	.contact_section button {
+		margin-top: 0px;
+	}
+}
+
+@media screen and (max-height: 600px) {
+	.main {
+		flex-direction: column;
+		align-items: center;
+		height: 150vh;
+	}
+
+	.left_side,
+	.right_side {
+		width: 95%;
+		height: 70%;
+		justify-content: flex-start;
+	}
+
+	.left_side {
+		margin-top: 20px;
+		height: 30%;
+	}
+
+	.left_side h1 {
+		margin-top: 0px;
+	}
+
+	.left_side span {
+		margin-top: 10px;
+	}
+
+	.left_side .email_row {
+		margin-top: 10px;
+	}
+
+	.right_side .contact_section {
+		gap: 5px;
+	}
+}
