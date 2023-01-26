@@ -20,6 +20,7 @@ function ProjectCard({
 	pImgSrc,
 	pIcons,
 }: props) {
+	let counter = 0;
 	return (
 		<section className={styles.card}>
 			<div className={styles.upper_info}>
@@ -42,9 +43,9 @@ function ProjectCard({
 					<div className={styles.logo_row}>
 						{pIcons.map((icon) => (
 							<img
-								key={pName}
+								key={`icon${(counter += 1)}`}
 								src={icon}
-								style={{ width: "30px", height: "auto" }}
+								style={{ width: "30px" }}
 							></img>
 						))}
 					</div>

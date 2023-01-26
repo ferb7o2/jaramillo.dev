@@ -1,9 +1,13 @@
 .content,
 .about_content {
 	margin-top: 30px;
-	width: 100%;
+	width: 96%;
 	height: 70vh;
 	overflow: hidden;
+}
+
+.content_section {
+	width: 100%;
 }
 
 .campus_img {
@@ -124,7 +128,7 @@
 .content,
 .about_content {
 	border: 1px solid rgba(255, 255, 255, 0.5);
-	padding: 10px;
+	padding: 2%;
 }
 
 .content:hover,
@@ -176,7 +180,6 @@
 
 	.img_container {
 		height: 100%;
-		border: 1px solid green;
 	}
 
 	.self_img {
@@ -189,7 +192,6 @@
 
 	.seventy {
 		height: 70%;
-		border: 1px solid green;
 	}
 
 	.seventy_txt {

@@ -9,6 +9,7 @@ function Carousel() {
 		<ScrollContainer className={styles.main}>
 			{projectData.map((val) => (
 				<ProjectCard
+					key={val.name}
 					pName={val.name}
 					pDescription={val.shortDescription}
 					pOverview={val.description}
