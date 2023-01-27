@@ -9,9 +9,11 @@ function NavBar() {
 		<header className={styles.navBar}>
 			<div className={styles.blurred_bg} />
 			<div className={styles.navBar_content}>
-				<p className={styles.navTitle}>
-					<span className="bold">JARAMILLO</span> FERNANDO
-				</p>
+				<a href="#home">
+					<p className={styles.navTitle}>
+						<span className="bold">JARAMILLO</span> FERNANDO
+					</p>
+				</a>
 
 				<div className={styles.navbar_nav_row}>
 					<a href={"#about"}>ABOUT</a>
