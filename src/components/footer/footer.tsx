@@ -3,6 +3,7 @@ import styles from "./footer.module.css";
 import { ReactComponent as GitLogo } from "../../assets/svgs/github-logo.svg";
 import { ReactComponent as LinkedInLogo } from "../../assets/svgs/linkedin-logo.svg";
 import { ReactComponent as HandshakeLogo } from "../../assets/svgs/handshake-logo.svg";
+import "../../assets/fonts/CONSOLA.TTF";
 
 function Footer() {
 	return (

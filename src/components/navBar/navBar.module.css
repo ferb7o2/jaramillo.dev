@@ -42,8 +42,8 @@
 }
 
 .navbar_nav_row a {
-	font-size: 12px;
-	font-weight: 500;
+	font-size: 14px;
+	font-weight: bold;
 	font-family: var(--roboto-font) I !important;
 }
 
@@ -77,6 +77,10 @@
 	}
 
 	.navBar {
+		justify-content: center;
+	}
+
+	.navBar_content {
 		justify-content: center;
 	}
 }
