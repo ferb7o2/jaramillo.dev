@@ -4,14 +4,14 @@
 	display: flex;
 	flex-direction: row;
 	overflow-x: scroll;
-	overflow-y: visible;
+	overflow-y: hidden;
 	justify-content: flex-start;
 	flex-wrap: nowrap;
 	margin-top: 40px;
-	width: 95%;
+	width: 94%;
 	height: 100%;
+	padding: 2%;
 	max-height: 620px;
-	padding: 1rem;
 	animation: visible 0.5s ease-in-out 1, scaleUp 0.4s ease-out 1;
 }
 
@@ -26,6 +26,6 @@
 	.main {
 		margin-top: 10px;
 		max-height: 590px;
-		width: 95%;
+		width: 94%;
 	}
 }

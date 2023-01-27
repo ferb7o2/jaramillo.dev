@@ -21,6 +21,11 @@
 	font-size: 32px;
 	font-weight: bold;
 	color: rgba(255, 255, 255, 0.5);
+	font-family: var(--roboto-font);
+}
+
+.about_content p {
+	font-family: var(--roboto-font);
 }
 
 .text_content {
