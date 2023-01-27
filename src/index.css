@@ -11,3 +11,8 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
+
+:root {
+	--roboto-font: "Roboto", sans-serif;
+	--roboto-condensed-font: "Roboto Consensed", sans-serif;
+}

@@ -19,6 +19,7 @@
 	font-weight: bold;
 	width: 90%;
 	text-align: center;
+	font-family: var(--roboto-condensed-font);
 }
 .card span {
 	color: black;
@@ -27,6 +28,7 @@
 	text-align: center;
 	margin-top: 8px;
 	font-weight: 300;
+	font-family: var(--roboto-font);
 }
 
 .card .lower_info p {
