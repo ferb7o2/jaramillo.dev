@@ -16,3 +16,7 @@ code {
 	--roboto-font: "Roboto", sans-serif;
 	--roboto-condensed-font: "Roboto Consensed", sans-serif;
 }
+
+.bold {
+	font-weight: bold;
+}

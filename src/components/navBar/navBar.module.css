@@ -79,4 +79,8 @@
 	.navBar {
 		justify-content: center;
 	}
+
+	.navBar_content {
+		justify-content: center;
+	}
 }
