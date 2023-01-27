@@ -3,7 +3,7 @@ import styles from "./home.module.css";
 
 function HomeSection() {
 	return (
-		<div className={styles.main}>
+		<div className={styles.main} id="home">
 			<span className={styles.bg_img}>{"< />"}</span>
 			<p>// Hey, my name is</p>
 			<h1>Fernando Jaramillo</h1>

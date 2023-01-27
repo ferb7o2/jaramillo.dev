@@ -21,21 +21,42 @@ function ContactSection() {
 					</div>
 				</div>
 			</div>
-			<form className={styles.right_side}>
+			<form
+				className={styles.right_side}
+				action="https://formsubmit.co/fernando@jaramillo.dev"
+				method="POST"
+			>
 				<div className={styles.contact_section}>
 					<label htmlFor="name" className={styles.label}>
 						NAME
-						<input id="name" />
+						<input id="name" required name="name" />
 					</label>
 					<label htmlFor="email">
 						EMAIL
-						<input id="email" type="email" />
+						<input
+							id="email"
+							type="email"
+							pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+							title="Please enter a valid email address"
+							required
+							name="email"
+						/>
 					</label>
 					<label htmlFor="content">
 						MESSAGE
-						<textarea id="content" className={styles.box_input} />
+						<textarea
+							id="content"
+							className={styles.box_input}
+							name="message"
+							required
+						/>
 					</label>
-					<button>SEND</button>
+					<input
+						type="hidden"
+						name="_subject"
+						value="Personal Website Inquiry"
+					/>
+					<button type="submit">SEND</button>
 				</div>
 			</form>
 		</div>

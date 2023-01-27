@@ -9,26 +9,32 @@ function NavBar() {
 		<header className={styles.navBar}>
 			<div className={styles.blurred_bg} />
 			<div className={styles.navBar_content}>
-				<p className={styles.navTitle}>
-					<span className="bold">JARAMILLO</span> FERNANDO
-				</p>
+				<a href="#home">
+					<p className={styles.navTitle}>
+						<span className="bold">JARAMILLO</span> FERNANDO
+					</p>
+				</a>
 
 				<div className={styles.navbar_nav_row}>
 					<a href={"#about"}>ABOUT</a>
 					<a href={"#projects"}>PROJECTS</a>
 					<a href={"#contact"}>CONTACT</a>
-					<GitLogo
-						width={24}
-						height={23.41}
-						fill={"white"}
-						className={styles.svgIcon}
-					/>
-					<LinkedInLogo
-						width={23}
-						height={23}
-						fill={"white"}
-						className={styles.svgIcon}
-					/>
+					<a href={"https://github.com/JoseJaramillo04"}>
+						<GitLogo
+							width={24}
+							height={23.41}
+							fill={"white"}
+							className={styles.svgIcon}
+						/>
+					</a>
+					<a href={"https://www.linkedin.com/in/fernandojmllo/"}>
+						<LinkedInLogo
+							width={23}
+							height={23}
+							fill={"white"}
+							className={styles.svgIcon}
+						/>
+					</a>
 					<CvIcon
 						width={25}
 						height={"auto"}
