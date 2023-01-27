@@ -9,7 +9,7 @@ function Footer() {
 	return (
 		<div className={styles.main}>
 			<div className={styles.content}>
-				<p>Fernando Jaramillo © 2022 ALL RIGHTS RESERVED</p>
+				<p>Fernando Jaramillo © 2022</p>
 				<div className={styles.logo_section}>
 					<a href={"https://github.com/JoseJaramillo04"}>
 						{" "}
