@@ -34,4 +34,8 @@
 	.main p {
 		font-size: 40px;
 	}
+
+	.main {
+		height: 105vh;
+	}
 }

@@ -3,18 +3,27 @@ import UtrgvImage from "../../assets/images/utrgv-campus.jpeg";
 
 import styles from "./contentCard.module.css";
 import HeadShot from "../../assets/images/headshot.webp";
+import { useSearchParams } from "react-router-dom";
 
 function ContentCard() {
-	const tab = true;
+	const [searchParams, setSearchParams] = useSearchParams();
+	const tab = searchParams.get("tab") || "";
 
-	const params = new URLSearchParams();
+	function changeTab(input: string) {
+		const temp = new URLSearchParams({ tab: input });
+		setSearchParams(temp);
+	}
 
 	return (
 		<div className={styles.content_section}>
 			<ul className={styles.nav_row}>
-				{tab ? (
+				{tab === "aboutMe" ? (
 					<>
-						<a onClick={(e) => {}}>
+						<a
+							onClick={(e) => {
+								changeTab("education");
+							}}
+						>
 							<li>Education</li>
 						</a>
 						<a onClick={() => {}}>
@@ -26,23 +35,20 @@ function ContentCard() {
 						<a onClick={() => {}}>
 							<li className={styles.selected}>Education</li>
 						</a>
-						<a onClick={() => {}}>
+						<a
+							onClick={() => {
+								changeTab("aboutMe");
+							}}
+						>
 							<li>About Me</li>
 						</a>
 					</>
 				)}
 			</ul>
-			{tab ? (
+			{tab === "aboutMe" ? (
 				<div className={(styles.content, styles.about_content)}>
 					<div className={styles.thirty}>
-						<div className={styles.img_container}>
-							<img
-								src={HeadShot}
-								alt={"Headshot"}
-								className={styles.self_img}
-								loading="lazy"
-							/>
-						</div>
+						<div className={styles.img_container}></div>
 					</div>
 					<div className={styles.seventy}>
 						<div className={styles.seventy_txt}>
