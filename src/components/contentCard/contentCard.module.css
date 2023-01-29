@@ -150,8 +150,9 @@
 }
 
 @media screen and (max-width: 800px) {
-	.content p {
-		font-size: 21px;
+	.content p,
+	.content {
+		font-size: 20px;
 	}
 
 	.about_content {
@@ -213,7 +214,7 @@
 		max-height: 100%;
 	}
 	.content p {
-		font-size: 18px;
+		font-size: 11px;
 	}
 
 	.about_content h3 {
@@ -221,7 +222,7 @@
 	}
 
 	.about_content p {
-		font-size: 13px;
+		font-size: 12px;
 		margin-top: 5px;
 		line-height: 20px;
 	}

@@ -157,7 +157,15 @@
 		max-height: 570px;
 	}
 
+	.card .img_container {
+		max-height: max-content;
+	}
+
+	.card h2 {
+		margin-top: 10px;
+	}
+
 	.btn_row {
-		margin-top: 15px;
+		margin-top: 10px;
 	}
 }
