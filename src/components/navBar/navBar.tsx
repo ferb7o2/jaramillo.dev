@@ -35,12 +35,14 @@ function NavBar() {
 							className={styles.svgIcon}
 						/>
 					</a>
-					<CvIcon
-						width={25}
-						height={"auto"}
-						fill={"white"}
-						className={styles.svgIcon}
-					/>
+					<a href={"/JJaramillo_Resume.pdf"}>
+						<CvIcon
+							width={25}
+							height={"auto"}
+							fill={"white"}
+							className={styles.svgIcon}
+						/>
+					</a>
 				</div>
 			</div>
 		</header>
