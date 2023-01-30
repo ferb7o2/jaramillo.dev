@@ -19,7 +19,7 @@ function NavBar() {
 					<a href={"#about"}>ABOUT</a>
 					<a href={"#projects"}>PROJECTS</a>
 					<a href={"#contact"}>CONTACT</a>
-					<a href={"https://github.com/JoseJaramillo04"}>
+					<a href={"https://github.com/ferb7o2"}>
 						<GitLogo
 							width={24}
 							height={23.41}
