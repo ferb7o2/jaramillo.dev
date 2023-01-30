@@ -11,7 +11,7 @@ function Footer() {
 			<div className={styles.content}>
 				<p>Fernando Jaramillo © 2022</p>
 				<div className={styles.logo_section}>
-					<a href={"https://github.com/JoseJaramillo04"}>
+					<a href={"https://github.com/ferb7o2"}>
 						{" "}
 						<GitLogo width={28} height={28} fill={"white"} />
 					</a>
