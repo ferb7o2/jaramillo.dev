@@ -11,7 +11,6 @@ function App() {
 		<BrowserRouter>
 			<main className="page-container">
 				<HomeSection />
-				<About />
 				<ProjectsSection />
 				<ContactSection />
 			</main>
